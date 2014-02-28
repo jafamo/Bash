@@ -1,0 +1,11 @@
+
+Update mozilla and thunderbird
+
+1.- edit file  /opt/firefox/defaults/pref/channel-prefs.js
+
+modify the same files (firefox,thunderbird)
+
+pref("app.update.channel", "release");
+
+
+After you need reboot applications and execute with sudo or root 

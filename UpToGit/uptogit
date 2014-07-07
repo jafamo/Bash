@@ -2,9 +2,6 @@
 
 # UpToGit 0.1
 # Actualiza facilmente tu repositorio Git
-# (CC) 2011 Alfonso Saavedra "Son Link"
-# http://sonlinkblog.blogspot.com
-# Bajo licencia GNU/GPL
 
 # Modo de uso: copia o mueve este script a /usr/bin o /usr/local/bin y desde el directorio donde se encuentre la copia de un repo git, ejecútalo de esta manera:
 # uptogit <ficheros>

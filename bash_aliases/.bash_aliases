@@ -4,7 +4,7 @@ if [ -x /usr/bin/dircolors ]; then
     
 ####rsync con host:server
 
-alias rsyncServer='rsync -rtvz /home/jafamo/programacion/workspace/Servlets/ root@server:/root/servlets/'
+#alias rsyncServer='rsync -rtvz /home/$user/programacion/workspace/Servlets/ root@server:/root/servlets/'
 
 
 ## ls ## {{{
@@ -26,7 +26,7 @@ alias lm='la | more'
 
 
     #alias top
-    alias topuser='top -u jafamo'    				
+    #alias topuser='top -u $user'    				
     								
     #alias rm
     alias rm='rm -rfv'

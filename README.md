@@ -5,6 +5,7 @@
 
 	The file .bash_aliases and .functions are in $HOME
 .:
+
 bash_aliases/
 configurations/
 functions/
@@ -18,40 +19,40 @@ youtube/
 ./bash_aliases:
 
 ./configurations:
-app/
-bash/
+	app/
+	bash/
 
 ./configurations/app:
-update_mozilla
+	update_mozilla
 
 ./configurations/bash:
-descompressed.sh*
+	descompressed.sh*
 
 ./functions:
 
 ./network:
-netstatColor.sh*
-netstat.sh*
-ver_IP.sh
-ver_ips_ocupadas_en_mi_subred.sh
+	netstatColor.sh*
+	netstat.sh*
+	ver_IP.sh
+	ver_ips_ocupadas_en_mi_subred.sh
 
 ./scripts:
-netstatColor.sh*
-netstat.sh*
-uptogit*
-user_connected.sh
-ver_IP.sh
-ver_ips_ocupadas_en_mi_subred.sh
-youtube_mp3.sh
-youtube.sh
+	netstatColor.sh*
+	netstat.sh*
+	uptogit*
+	user_connected.sh
+	ver_IP.sh
+	ver_ips_ocupadas_en_mi_subred.sh
+	youtube_mp3.sh
+	youtube.sh
 
 ./system:
-compress.sh*
-user_connected.sh*
+	compress.sh*
+	user_connected.sh*
 
 ./UpToGit:
-uptogit*
+	uptogit*
 
 ./youtube:
-youtube_mp3.sh
-youtube.sh
+	youtube_mp3.sh
+	youtube.sh

@@ -4,23 +4,14 @@
 
 
 	The file .bash_aliases and .functions are in $HOME
-.:
 
-bash_aliases/
-configurations/
-functions/
-network/
-README.md
-scripts/
-system/
-UpToGit/
-youtube/
 
-./bash_aliases:
 
-./configurations:
-	app/
-	bash/
+<code>./bash_aliases:
+<br>
+./configurations:<br>
+	app/<br>
+	bash/<br>
 
 ./configurations/app:
 	update_mozilla
@@ -56,3 +47,5 @@ youtube/
 ./youtube:
 	youtube_mp3.sh
 	youtube.sh
+
+</code>

@@ -116,8 +116,6 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-
 #export PATH=$PATH:/usr/local/bin/scripts
 
 #export PATH="$PATH:$HOME/Programing/workspace/Bash/network"
@@ -125,13 +123,11 @@ fi
 #export PATH="$PATH:$HOME/Programing/workspace/Bash/youtube"
 #export PATH="$PATH:$HOME/Programing/workspace/Bash/UpToGit"
 
-
-
 export PATH="$PATH:$HOME/Programing/workspace/Bash/scripts"
 export PATH=$PATH:/opt/java_se/JAVA-ORACLE/bin
 export JAVA_HOME=$PATH:/opt/java_se/JAVA-ORACLE/jdk1.8.0_20/bin
 export sublime="/opt/Sublime/sublime_text"
-export PATH="/home/jafamo/App/komodo/bin:$PATH"
+export PATH="$PATH:$HOME/App/komodo/bin:$PATH"
 
 ##Section scripts
 export PATH="$PATH:$HOME/App/scripts"

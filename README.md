@@ -12,3 +12,5 @@
 	The file .bash_aliases and .functions are in $HOME
 
 
+You can export variable in .bashrc for dir scripts
+ 

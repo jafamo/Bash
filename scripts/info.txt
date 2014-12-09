@@ -1,3 +1,0 @@
-Syntax:  exiftool [OPTIONS] FILE
-
-Consult the exiftool documentation for a full list of options.

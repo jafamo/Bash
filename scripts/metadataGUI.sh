@@ -8,10 +8,8 @@
 # Created file info.txt with information metadata $1
 #
 
-commando=$(which exiftool>>/tmp/comando)
-cat /tmp/comando
  
-if [ -s $comando ]; then
+if [ -x "$(which exiftool)" ]; then
 	echo "You have the exiftool"
 else
 	echo "You need install exiftool"

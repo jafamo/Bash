@@ -1,3 +1,8 @@
+# Install server with apache,mysql,php,phpmyadmin
+
+# Default user and pasword (root/root)
+
+
 # Update server
 apt-get update
 apt-get upgrade -y

@@ -1,5 +1,5 @@
 #!/bin/bash
-cd ~/Videos/YouTube/
+#cd ~/Videos/YouTube/
 /usr/bin/youtube-dl -c -t $1
 echo
 echo

@@ -1,7 +1,7 @@
 
 
 
-[![Build Status](https://travis-ci.org/darvin/github.png?branch=master)](https://travis-ci.org/darvin/github)
+[![Build Status](https://travis-ci.org/darvin/github.png?branch=master)]
 
 
 ## Shell Scripts and configurations

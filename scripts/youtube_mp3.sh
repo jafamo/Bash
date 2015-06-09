@@ -1,10 +1,10 @@
 #!/bin/bash
 
-    echo '*********************'
-    echo '*****youtube2MP3*****'
-    echo '*******by fal********'
-    echo '*********************'
+# Dependencias:
+    # ffmepg
+    # youtube-dl
 
+    echo "Solo se necesita el codigo que sale en la url del video"
     CODIGO=”
     echo -n ‘ingrese codigo: ‘
     read CODIGO

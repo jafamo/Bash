@@ -1,0 +1,16 @@
+
+#hardstatus alwayslastline
+
+startup_message off
+caption always "%{= kw}%-w%{= BW}%n %t%{-}%+w %-= @%H - %LD %d %LM - %c"
+
+startup_message off
+vbell off
+autodetach on
+altscreen on
+shelltitle "$ |bash"
+defscrollback 10000
+defutf8 on
+nonblock on
+defnonblock 5
+

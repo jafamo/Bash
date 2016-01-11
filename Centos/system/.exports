@@ -1,0 +1,28 @@
+#JAVA
+export PATH=$PATH:/opt/java_se/JAVA-ORACLE/bin
+
+#IDE
+export sublime=$PATH:/opt/Sublime_text_2/sublime_text
+export EDITOR=vim
+
+#SCRIPTS
+export PATH=$PATH:$HOME/programming/workspace/Git/Bash/scripts
+export PATH=$PATH:$HOME/software/scripts
+
+
+#ANDROID
+#export PATH=$PATH:/opt/Android/SDK/platform-tools
+
+#VAGRANT
+export vagrant=$PATH:/usr/bin/vagrant
+
+
+##LATCH
+#PAM_DIR=/lib/security
+
+
+#DISABILITY
+#export PATH=$PATH:/opt/node/bin
+#export PATH=$PATH:$HOME/App/scripts
+#export JAVA_HOME=$PATH:/opt/java_se/JAVA-ORACLE/jdk1.8.0_20/bin
+#export PATH=$PATH:/opt/apache-tomcat/bin

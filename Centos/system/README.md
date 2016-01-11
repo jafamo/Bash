@@ -1,0 +1,3 @@
+###README.md
+
+######Files configuration Bash and apps such as conky, screen, wget, rsync,....

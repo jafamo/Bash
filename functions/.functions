@@ -1,7 +1,29 @@
+#
+# FUNCTIONS 
+#
+
+##Parse_git_branch:
+#
+#Colour in prompt for different branch
+#
+
 function parse_git_branch {
   ref=$(git symbolic-ref HEAD 2> /dev/null) || return
     echo "("${ref#refs/heads/}")"
     }
+
+
+
+#YOUTUBE_WITH_MP3
+#
+# You need youtube-dl for download videos and format in mp3
+# You can download playlist or a song from youtube and convert in mp3 
+#
+
+function youtube_with_mp3{
+
+	youtube-dl --extract-audio --audio-format mp3 "$1"
+}
 
 
 function descomprimir {
@@ -41,13 +63,9 @@ function descomprimir {
              incluya la extensión "
              
              exit
-             ;;
-             
+             ;;         
      esac
  }
-
-
-
 
 
 

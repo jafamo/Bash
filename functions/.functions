@@ -20,7 +20,7 @@ function parse_git_branch {
 # You can download playlist or a song from youtube and convert in mp3 
 #
 
-function youtube_with_mp3{
+function youtube_with_mp3 {
 
 	youtube-dl --extract-audio --audio-format mp3 "$1"
 }

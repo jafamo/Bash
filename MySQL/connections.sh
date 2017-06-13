@@ -3,6 +3,7 @@
 # source:
 # https://support.plesk.com/hc/en-us/articles/213938885-Plesk-or-website-are-not-working-Unable-to-connect-to-database-MySQL-server-has-gone-away-Full-server-backup-is-created-with-warning-errno-24-Too-many-open-files
 #
+# https://support.plesk.com/hc/es/articles/213391989
 
 
 echo "show connections"

@@ -11,6 +11,9 @@ mysqladmin -uadmin -p`cat /etc/psa/.psa.shadow` extended-status | grep Max_used_
 echo "current connection limite"
 mysqladmin -uadmin -p`cat /etc/psa/.psa.shadow ` variables | grep 'max.*connections'
 
+echo "comprobar que conexiones y a que base de datos se esta realizando"
+mysqladmin -uadmin -p`cat /etc/psa/.psa.shadow` processlist
+
 
 echo
 echo"0 max_user_connections are unlimited."
